@@ -222,36 +222,20 @@ header>div {
     margin-bottom: 8px;
 }
 
-.prin-title::before {
-    display: block;
-    content: "";
+.prin-bkg {
+    display: flex;
     height: 112px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color:#F4F4FD;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
+        
 }
 
-.icon-antenna::before {
-    background-image: url("../images/icon/antenna.svg");
-    background-size: 64px;
-}
-
-.icon-clock::before {
-    background-image: url("../images/icon/clock.svg");
-    background-size: 64px;
-}
-
-.icon-diagram::before {
-    background-image: url("../images/icon/diagram.svg");
-    background-size: 64px;
-}
-
-.icon-astronaut::before {
-    background-image: url("../images/icon/astronaut.svg");
-    background-size: 64px;
+.icon-prin {
+    width: 64px;
+    height: 64px;    
 }
 
 .prin-desc {

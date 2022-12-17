@@ -6,6 +6,7 @@
     --light-text-color: #ffffff;
     --btn-hover-color: #404BBF;
     --footer-text-color: #E7E9FC;
+    --border-customer-color: #8E8F99;
 
     --card-set-gap: 24px;
 }
@@ -328,8 +329,7 @@ header>div {
 }
 
 .logo-social {
-    width: 40px;
-    height: 40px;
+ 
     
 }
 
@@ -338,10 +338,44 @@ header>div {
     background-color: var(--brand-color);
     border-radius: 50%;
     color: var(--bgrd-color); 
+    width: 44px;
+    height: 44px;
+    padding: 12px;
 }
 
 .icon-logo {
-    fill: currentColor; 
+    
+}
+
+/* SECTION CUSTOMERS */
+
+.castomers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.customers-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.customers-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.custom-logo {
+    display: flex;
+    border: 1px solid var(--border-customer-color);
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px;
 }
 
 /* FOOTER */

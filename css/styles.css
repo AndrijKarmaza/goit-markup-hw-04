@@ -318,6 +318,30 @@ header>div {
     font-size: 16px;
     line-height: 1.5;
     color: var(--descr-text);
+    margin-bottom: 8px;
+}
+
+.icon-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between; 
+}
+
+.logo-social {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.icon-link {
+    display: flex;
+    background-color: var(--brand-color);
+    border-radius: 50%;
+    color: var(--bgrd-color); 
+}
+
+.icon-logo {
+    fill: currentColor; 
 }
 
 /* FOOTER */
@@ -329,7 +353,7 @@ footer {
 }
 
 .footer-logo {
-    display: block;
+    display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;

@@ -181,6 +181,7 @@ header>div {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--btn-hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* SECTION Our principles */
@@ -328,11 +329,6 @@ header>div {
     justify-content: space-between; 
 }
 
-.logo-social {
- 
-    
-}
-
 .icon-link {
     display: flex;
     background-color: var(--brand-color);
@@ -343,9 +339,7 @@ header>div {
     padding: 12px;
 }
 
-.icon-logo {
-    
-}
+
 
 /* SECTION CUSTOMERS */
 
@@ -369,7 +363,7 @@ header>div {
     justify-content: space-between;
 }
 
-.custom-logo {
+.custom-link {
     display: flex;
     border: 1px solid var(--border-customer-color);
     border-radius: 4px;
@@ -378,12 +372,33 @@ header>div {
     padding: 16px 32px;
 }
 
+.custom-link:hover {
+    border-color: var(--brand-color);
+}
+
+.custom-logo {
+    fill: var(--border-customer-color);
+}
+
+.custom-logo:hover,
+.custom-logo:focus {
+    fill: var(--brand-color);
+}
+
+
+
+
+
 /* FOOTER */
 
 footer {
     background-color: var(--main-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+footer>div {
+    display: flex;
 }
 
 .footer-logo {
@@ -404,6 +419,48 @@ footer {
     line-height: 1.5;
     color: var(--footer-text-color);
 }
+
+.social-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-text-color);
+    margin-bottom: 16px;
+}
+
+.icon-footer {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);;
+    border-radius: 50%;
+    color: var(--bgrd-color);
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+.icon-list-footer {
+    display: flex;
+    list-style-type: none;
+}
+
+.icon-list-footer>li {
+    margin-right: 16px;
+}
+
+.icon-list-footer>li:last-child {
+    margin-right: 0;
+}
+
+.logo-group {
+    margin-left: 120px;
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+    background: #31D0AA;
+}
+
 
 /* portfolio */
 
@@ -442,6 +499,7 @@ footer {
 .btn-active:hover,
 .btn-active:focus {
     background-color: var(--btn-hover-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-btn {
@@ -463,6 +521,7 @@ footer {
 .filter-btn:focus {
     color: var(--light-text-color);
     background-color: var(--brand-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .port-list {
@@ -481,6 +540,12 @@ footer {
     margin-left: var(--card-set-gap);
     border-bottom: 0.5px solid var(--bgrd-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.port-card:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-link {

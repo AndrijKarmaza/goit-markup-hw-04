@@ -336,8 +336,8 @@ header>div {
     background-color: var(--brand-color);
     border-radius: 50%;
     color: var(--bgrd-color); 
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -365,17 +365,16 @@ header>div {
 }
 
 .customers-list>li {
-    width: calc((100% - (5 * 24px)) / 6);
-    
+    width: calc((100% - (5 * 24px)) / 6);  
 }
 
 .custom-link {
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid var(--border-customer-color);
     border-radius: 4px;
-    padding: 16px 0;
-    
+    height: 88px;    
 }
 
 .custom-link:hover {
